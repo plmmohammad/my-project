@@ -1,4 +1,3 @@
-
 using System;
 
 class Program
@@ -21,6 +20,7 @@ class Program
                 min = num;
         }
         Console.WriteLine("کوچک‌ترین عدد: " + min);
+        Console.ReadKey();
     }
 
     // تمرین 2: بزرگ‌ترین عدد از 20 عدد
@@ -178,7 +178,6 @@ class Program
             total += days[i];
         Console.WriteLine("روز " + total + " سال است.");
     }
-}
 
     // تمرین 15: معکوس عدد بدون استفاده از رشته
     static void Exercise15()
@@ -243,7 +242,7 @@ class Program
             else
                 odd++;
         }
-        Console.WriteLine($"تعداد زوج: {even}, فرد: {odd}");
+        Console.WriteLine("تعداد زوج: " + even + ", فرد: " + odd);
     }
 
     // تمرین 20: بررسی مضرب بودن دو عدد
@@ -291,6 +290,7 @@ class Program
         Console.Write("عدد را وارد کن: ");
         string num = Console.ReadLine();
         bool isAscending = true;
+
         for (int i = 1; i < num.Length; i++)
         {
             if (num[i] <= num[i - 1])
@@ -299,7 +299,11 @@ class Program
                 break;
             }
         }
-        Console.WriteLine(isAscending ? "صعودی است." : "صعودی نیست.");
+
+        if (isAscending)
+            Console.WriteLine("صعودی است.");
+        else
+            Console.WriteLine("صعودی نیست.");
     }
 
     // تمرین 24: بررسی یکنواخت بودن ارقام عدد
