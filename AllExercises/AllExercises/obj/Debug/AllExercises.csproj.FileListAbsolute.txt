@@ -1,1 +1,6 @@
 D:\Soft\Project\AllExercises\AllExercises\bin\Debug\AllExercises.exe.config
+D:\Soft\Project\AllExercises\AllExercises\bin\Debug\AllExercises.exe
+D:\Soft\Project\AllExercises\AllExercises\bin\Debug\AllExercises.pdb
+D:\Soft\Project\AllExercises\AllExercises\obj\Debug\AllExercises.csprojResolveAssemblyReference.cache
+D:\Soft\Project\AllExercises\AllExercises\obj\Debug\AllExercises.exe
+D:\Soft\Project\AllExercises\AllExercises\obj\Debug\AllExercises.pdb
